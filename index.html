@@ -2,13 +2,30 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   <link rel="stylesheet" href="./assets/css/style.css">
   <title>Frontend Mentor | Intro component with sign up form</title>
-
 </head>
 <body>
-
+  <main class="container d-flex align-item-center justify-contain-center h-100 w-100">
+    <div class="left-section">
+      <h1>Learn to code by<span> watching others</span></h1>
+      <p>see how to exprienced developers solve problems in real-time.<span> Watching scripted tutorials is great,but
+        understanding how</span><span>developers think is invaluable</span> </p>
+    </div>
+    <div class="right-section">
+      <button class="btn"> Try it free 7 days then $20/mo.thereafter</button>
+      <div class="card d-flex align-item-center justify-contain-cente flex-direction-column">
+        <input type="text" class="form-control" placeholder="First Name">
+        <input type="text" class="form-control" placeholder="Last Name">
+        <input type="email" class="form-control" placeholder="Email Address">
+        <input type="password" class="form-control" placeholder="Password">
+        <button class="btn">CLAIM YOUR FREE TRIAL</button>
+        <p>By clicking  the  button you are agreeing our <span class="text-danger">Terms and Services</span></p>
+      </div>
+    </div>
+  </main>
 </body>
 </html>
