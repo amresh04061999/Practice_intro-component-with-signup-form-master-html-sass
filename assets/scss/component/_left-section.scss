@@ -1,0 +1,25 @@
+.left-section {
+    padding: 10px;
+    & h1 {
+        font-size: 50px;
+        color: $white;
+
+    }
+    h1 span::before{
+        content: "\A";
+        white-space: pre;
+    }
+    & p {
+        font-size: 16px;
+        color: $white;
+        & span::before{
+            content: "\A";
+           white-space: pre;
+   
+       }
+
+    }
+   
+
+
+}

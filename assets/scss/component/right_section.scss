@@ -1,0 +1,45 @@
+.right-section {
+    padding: 50px;
+    & >.btn {
+        padding: 20px 140px;
+        background-color: hsl(246deg 30% 48%);
+        border: none;
+        border-radius: 10px;
+        color: $white;
+        font-size: 16px;
+        white-space: nowrap;
+        margin-bottom: 20px;
+        cursor: pointer;
+    }
+    & .card {
+        background-color: $white;
+        padding: 30px;
+        border-radius: 10px;
+        
+        input{
+            display: block;
+            padding:20px 300px 20px 10px;
+            margin: 12px;
+            //  border-color: hsl(0deg 0% 88%);
+        }
+        .btn{
+            padding: 20px 144px;
+            background-color:hsl(154deg 58% 52%);
+            border: none;
+            border-radius: 5px;
+            color: $white;
+            font-size: 16px;
+            white-space: nowrap;
+            margin-bottom: 20px;
+        }
+        p{
+            font-size: 12px;
+            color: hsl(250deg 12% 80%);
+        }
+        .text-danger{
+            color:hsl(1deg 64% 73%) ;
+            font-weight: 700;
+         }
+    }
+    
+}
