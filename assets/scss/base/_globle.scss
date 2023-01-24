@@ -1,23 +1,30 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
 
 * {
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
 }
+
 html,
 body {
     width: 100%;
     height: 100%;
 }
+
 body {
     overflow: hidden;
     font-family: $font-family;
     background-image: url("../../../images/bg-intro-desktop.png");
-    background-color: #fe7a71;
+    background-color: $primary;
 }
+// helper class
 .d-flex {
     display: flex;
+}
+
+.overflow-auto {
+    overflow-y: auto;
 }
 
 .justify-content-between {
@@ -49,26 +56,41 @@ body {
 }
 
 .w-50 {
-    width: 100%;
+    width: 50%;
 }
 
 .h-100 {
     height: 100%;
 }
 
+.border-none {
+    border: none;
+}
+
+.p-50 {
+    padding: 50px;
+}
+
 .cursor-pointer {
     cursor: pointer;
 }
 
-.border {
-    border: 2px solid red
-}
+// media Query
 
-@media(max-width:576px) {
-    .container{
-        overflow: auto;
-    }
+@media (max-width: 576px) {
     .main-wrapper {
         flex-direction: column;
+        margin-top: 20px;
+
     }
+    .left-section,.right-section{
+        width: 100%;
+    }
+}
+@media  (min-width: 600px)  {
+    .main-wrapper {
+       height: 100%;
+
+    }
+
 }

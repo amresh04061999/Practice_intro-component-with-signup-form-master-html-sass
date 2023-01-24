@@ -1,18 +1,16 @@
 // left section css
-
 .left-section {
-    padding: 50px;
     @media (max-width: 992px) {
         padding: 30px;
     }
     @media (max-width: 576px) {
         padding: 20px;
     }
-   
+
     h1 {
     
         font-size: 50px;
-        color: white;
+        color:$white;
         @media (max-width: 992px) {
             font-size: 30px;
             text-align: center;
@@ -20,9 +18,7 @@
         @media (max-width: 576px) {
             font-size: 25px;
             text-align: center;
-            
         }
-      
     }
     p {
         font-size: 20px;
@@ -33,7 +29,7 @@
             text-align: center;
         }
         @media (max-width: 576px) {
-            font-size: 16px;
+            font-size: $font-16px;
             text-align: center;
         }
         
