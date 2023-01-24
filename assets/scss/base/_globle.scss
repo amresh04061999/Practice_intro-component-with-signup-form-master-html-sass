@@ -5,20 +5,17 @@
     padding: 0px;
     box-sizing: border-box;
 }
-
 html,
 body {
     width: 100%;
     height: 100%;
 }
-
 body {
     overflow: hidden;
     font-family: $font-family;
     background-image: url("../../../images/bg-intro-desktop.png");
     background-color: #fe7a71;
 }
-
 .d-flex {
     display: flex;
 }
@@ -68,6 +65,9 @@ body {
 }
 
 @media(max-width:576px) {
+    .container{
+        overflow: auto;
+    }
     .main-wrapper {
         flex-direction: column;
     }
