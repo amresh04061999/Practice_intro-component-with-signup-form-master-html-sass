@@ -54,10 +54,6 @@ body {
   width: 100%;
 }
 
-.w-50 {
-  width: 50%;
-}
-
 .h-100 {
   height: 100%;
 }
@@ -77,10 +73,7 @@ body {
 @media (max-width: 576px) {
   .main-wrapper {
     flex-direction: column;
-    margin-top: 20px;
-  }
-  .left-section, .right-section {
-    width: 100%;
+    margin-top: 30px;
   }
 }
 @media (min-width: 600px) {
