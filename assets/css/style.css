@@ -70,6 +70,26 @@ body {
   cursor: pointer;
 }
 
+.text-danger {
+  color: red;
+}
+
+.input-border {
+  border: 2px solid red;
+}
+
+.position-relative {
+  position: relative;
+}
+
+.d-none {
+  display: none;
+}
+
+.d-block {
+  display: block;
+}
+
 @media (max-width: 576px) {
   .main-wrapper {
     flex-direction: column;
@@ -166,7 +186,8 @@ body {
   border-radius: 5px;
   color: white;
   font-size: 16px;
-  margin-bottom: 20px;
+  margin-bottom: 30px;
+  margin-top: 20px;
 }
 @media (max-width: 992px) {
   .right-section .btn2 {
@@ -179,6 +200,7 @@ body {
   .right-section .btn2 {
     padding: 15px 48px;
     font-size: 14px;
+    margin-top: 10px;
   }
 }
 .right-section .card {
@@ -201,7 +223,6 @@ body {
   padding: 20px 240px 20px 30px;
   margin: 8px 0;
   box-sizing: border-box;
-  border: 2px solid hsl(0deg, 0%, 90%);
   -webkit-transition: 0.5s;
   transition: 0.5s;
   outline: none;
@@ -247,6 +268,29 @@ body {
   color: #fe7a71;
   font-weight: 700;
   text-decoration: none;
+}
+.right-section .validation {
+  padding-left: 300px;
+}
+@media (max-width: 992px) {
+  .right-section .validation {
+    padding-left: 100px;
+  }
+}
+@media (max-width: 576px) {
+  .right-section .validation {
+    padding-left: 90px;
+    font-size: 11px;
+  }
+}
+.right-section .border-input {
+  border: 2px solid hsl(0deg, 0%, 90%);
+}
+.right-section .arror-icon {
+  position: absolute;
+  right: 15px;
+  top: 50%;
+  transform: translateY(-50%);
 }
 
 /*# sourceMappingURL=style.css.map */

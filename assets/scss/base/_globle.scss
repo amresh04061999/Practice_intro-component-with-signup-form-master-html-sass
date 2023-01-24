@@ -71,7 +71,21 @@ body {
 .cursor-pointer {
     cursor: pointer;
 }
-
+.text-danger{
+    color: red;
+}
+.input-border{
+    border:  2px solid red;
+}
+.position-relative{
+    position: relative;
+}
+.d-none{
+    display: none;
+}
+.d-block{
+    display: block;
+}
 // media Query
 
 @media (max-width: 576px) {

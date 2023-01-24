@@ -36,7 +36,8 @@
         @include rounded;
         color: $white;
         font-size:$font-16px;
-        margin-bottom: 20px;
+        margin-bottom: 30px;
+        margin-top: 20px;
         @media (max-width: 992px) {
             padding: 15px 50px;
             font-size: 14px;
@@ -45,6 +46,7 @@
         @media(max-width:576px) {
             padding: 15px 48px;
             font-size: 14px;
+            margin-top: 10px;
         }
         
     }
@@ -65,7 +67,7 @@
         padding: 20px 240px 20px 30px;
         margin: 8px 0;
         box-sizing: border-box;
-        border: 2px solid hsl(0deg 0% 90%);
+      
         -webkit-transition: 0.5s;
         transition: 0.5s;
         outline: none;
@@ -103,6 +105,28 @@
         color: $primary;
         font-weight:$font-medium;
         text-decoration: none;
+
+    }
+    .validation{
+       padding-left: 300px;
+       @media (max-width: 992px) {
+        padding-left: 100px;
+     }
+     @media(max-width:576px) {
+        padding-left: 90px;
+        font-size: 11px;
+        
+     }
+    }
+    .border-input{
+          border: 2px solid hsl(0deg 0% 90%);
+    }
+    .arror-icon{
+        position: absolute;
+        right: 15px;
+        top: 50%;
+        transform:translateY(-50%);
+       
 
     }
 }
