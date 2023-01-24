@@ -20,18 +20,18 @@
         if (lastname == null || lastname == "") {
             document.getElementById("lastname").innerHTML="Last Name cannot be empty";
             getlastname.classList.replace("border-input","input-border");
-            getimageicon2.classList.replace("d-none","d-block");
+            getimageicon1.classList.replace("d-none","d-block");
         } 
          if (email == null || email == "") {
             document.getElementById("email").innerHTML="Look Like this not a email"; 
             getemail.classList.replace("border-input","input-border");
-            getimageicon3.classList.replace("d-none","d-block");
+            getimageicon2.classList.replace("d-none","d-block");
 
         } 
         if (password == null || password == "") {
             document.getElementById("password").innerHTML="Password cannot be Empty";
             getpassword.classList.replace("border-input","input-border");
-            getimageicon4.classList.replace("d-none","d-block");
+            getimageicon3.classList.replace("d-none","d-block");
             return false;
         }
     }
