@@ -8,7 +8,7 @@
     }
     // top button
     .btn {
-        padding: 20px 130px;
+        padding: 20px 127px;
         background-color:$btn-secondy;
        @include rounded;
         color: $white;
@@ -36,8 +36,8 @@
         @include rounded;
         color: $white;
         font-size:$font-16px;
-        margin-bottom: 30px;
-        margin-top: 20px;
+        margin-bottom: 10px;
+        margin-top: 10px;
         width: 100%;
         @media (max-width: 992px) {
             width: 100%;
