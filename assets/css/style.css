@@ -181,26 +181,27 @@ body {
   }
 }
 .right-section .btn2 {
-  padding: 20px 144px;
+  padding: 20px 0px;
   background-color: hsl(154deg, 58%, 52%);
   border-radius: 5px;
   color: white;
   font-size: 16px;
   margin-bottom: 30px;
   margin-top: 20px;
+  width: 100%;
 }
 @media (max-width: 992px) {
   .right-section .btn2 {
-    padding: 15px 50px;
+    width: 100%;
     font-size: 14px;
     white-space: nowrap;
   }
 }
 @media (max-width: 576px) {
   .right-section .btn2 {
-    padding: 15px 48px;
     font-size: 14px;
     margin-top: 10px;
+    width: 100;
   }
 }
 .right-section .card {
